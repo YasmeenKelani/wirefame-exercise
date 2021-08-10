@@ -1,83 +1,108 @@
 
-nav{
-
-    background-color: rgb(104, 102, 102);
+header {
+    background-color: rgb(104, 102, 102); 
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 20px;
-}
+ header nav {
+     display: flex;  
+        width: 100%;
+} 
 
-nav ul li a{
-    color: black;
-    text-decoration: none;
-    margin-left: 50px;
-    padding-bottom: 20px;
-    margin-top: 50px;
-}
+ header nav ul {
+     width: 50%;
+     float: right;
+     padding-top: 45px;
+     margin-left: 70px; 
+} 
 
-#Mainpic{
-    text-align: center;
-     margin: 20px;
-}
+ header nav ul li {
+     display: inline;
+     padding: 40px;
+     margin-left: 5px;
+     margin-right: 0px;
+     color: white;
+    
+    }
+ 
+ header nav div {
+     float: left;
+     margin: 10px 0px 10px 280px;
+      }
 
-#first{ 
-    text-align: center;
-    margin-left: 250px;
-    padding-bottom: 30px;
-    float: left;
-}
+    main section:nth-child(1) {
+       text-align: center;
+       margin: 20px;
+    }
+        
+    
+        section:nth-of-type(2) {
+    
+        margin-left: 245px;
+    
+        }
+    
+        section:nth-of-type(2) img {
+    
+            padding-left: 25px;
 
-#second{
-    text-align: center;
-    margin-right: 190px;
-    padding-bottom: 30px;
-    float: right;
-}
+        }
+      
+    
+    
+        section:nth-of-type(3) {
+    
+            display: inline-block;
+            margin-left: 270px;
+            margin-top: 30px;
 
-#third{
-    text-align: center;
-     margin-right: 100px;
-      padding-bottom: 30px;
-}
+        }
+    
+        section:nth-of-type(3) img {
+    
+            float: left;
+            padding-right: 25px;
+        }
+    
+      
+        main section:nth-child(6) {
 
-#fourth{
-    display: flex;
-    margin-left: 250px;
-    margin-right: 190px;
-    margin-bottom: 20px;
-}
-#fourth img{
-    padding-right: 20px;
-}
+            margin: 10px;
+            width: 300;
+            padding-left: 20px;
+        
+        }
 
- p {
-      height: 300px;
-    overflow: scroll;
-    line-height: 22px;
-    margin: 10px;
-}
+         p {
+            height: 320px;
+            overflow: scroll;
+            line-height: 25px;
+            margin: 10px;
+            padding: 10px;
+        }
 
- button {
-      border: none;
-    font-size: 20px;
-    background-color: black  ; 
-    color: white;
-    padding: 10px 10px;    
- }
 
- button:hover {
-     background: whitesmoke;
+        button {
+            border: none;
+            font-size: 15px;
+            color: white;
+            padding: 10px 10px;
+           background-color: black;
+           margin: 20px;}
+         
+        
+         button:hover {
+           background-color: aquamarine;
+           color: black;
+           
+        }
+ 
 
-}
-
-footer{
-    clear : both; 
-     height: 150px;
-     background:rgb(104, 102, 102);
-     margin-bottom: 50px;
-     padding: 30px;
-     color: aqua;
-    text-align: right ;
-}
+        footer {
+            clear : both; 
+             height: 150px;
+             background:rgb(109, 108, 108);
+             margin-bottom: 50px;
+             padding: 30px;
+             color: aqua;
+            text-align: right ; 
+        }
